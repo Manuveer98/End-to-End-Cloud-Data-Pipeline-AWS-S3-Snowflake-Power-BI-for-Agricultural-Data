@@ -34,6 +34,8 @@ The analysis highlights environmental patterns across years, seasons, crops, and
 ## 🔍 Key Insights (Secondary Analysis)
 
 ### 🌧️ Rainfall Patterns
+<img width="1920" height="952" alt="Screenshot (1946)" src="https://github.com/user-attachments/assets/8b46aa88-a6df-4feb-be15-aa690a1702db" />
+
 - Rainfall peaked in **2018 (~3199)** and dropped significantly in **2019 (~2739)**  
 - Highest rainfall observed during **Rabi season**, lowest in **Zaid**  
 - **Bangalore** recorded the highest rainfall, while **Mysuru** had the lowest  
@@ -42,6 +44,8 @@ The analysis highlights environmental patterns across years, seasons, crops, and
 ---
 
 ### 🌡️ Temperature Trends
+<img width="1920" height="967" alt="Screenshot (1947)" src="https://github.com/user-attachments/assets/53449efa-27f0-4251-bbb6-2fd03275fb84" />
+
 - Temperature remained relatively stable between **2005–2018**  
 - Highest during **Kharif season**, lowest in **Rabi**  
 - **Bangalore** recorded highest temperatures, **Chikmagalur** lowest  
@@ -50,6 +54,8 @@ The analysis highlights environmental patterns across years, seasons, crops, and
 ---
 
 ### 🌾 Yield Variability
+<img width="1920" height="948" alt="Screenshot (1948)" src="https://github.com/user-attachments/assets/bd4481b3-1124-4610-ac11-3cc4cf37edd6" />
+
 - Yield fluctuated significantly post-2012, peaking in **2014**  
 - Decline observed between **2018–2019**  
 - **Rabi season** shows highest average yield (~24916)  
@@ -59,6 +65,8 @@ The analysis highlights environmental patterns across years, seasons, crops, and
 ---
 
 ### 💧 Humidity Observations
+<img width="1920" height="937" alt="Screenshot (1949)" src="https://github.com/user-attachments/assets/acc7be88-4076-4acd-9892-e08df9e4c810" />
+
 - Gradual increase in humidity from **2016 to 2019**  
 - Minimal variation across cities and crops (~55–56 range)  
 - Indicates **humidity is relatively stable and less differentiating**
@@ -78,6 +86,8 @@ The analysis highlights environmental patterns across years, seasons, crops, and
 
 ### 🔹 Pipeline Flow
 AWS S3 → Snowflake → Power BI Desktop → Power BI Service
+<img width="1920" height="901" alt="Screenshot (1922)" src="https://github.com/user-attachments/assets/d2c14ad8-fa51-4bc0-9946-604ffdcaa293" />
+
 
 ---
 
@@ -90,6 +100,8 @@ AWS S3 → Snowflake → Power BI Desktop → Power BI Service
 ---
 
 #### 2. Integration with Snowflake
+<img width="1920" height="878" alt="Screenshot (1927)" src="https://github.com/user-attachments/assets/053a2d23-f199-421a-a5e2-d21e0796b62f" />
+
 - Created **Storage Integration** with AWS IAM Role  
 - Configured secure access between S3 and Snowflake  
 - Created database, schema, and table structures  
@@ -98,6 +110,8 @@ AWS S3 → Snowflake → Power BI Desktop → Power BI Service
 ---
 
 #### 3. Data Loading & Transformation (Snowflake)
+<img width="1920" height="912" alt="Screenshot (1945)" src="https://github.com/user-attachments/assets/30465793-5860-474c-8915-2efb8abf18dd" />
+
 - Loaded data using `COPY INTO` from S3 stage  
 - Performed SQL-based transformations:
   - Adjusted rainfall (+10%) and area (-10%) *(simulated for analysis)*  
@@ -108,6 +122,8 @@ AWS S3 → Snowflake → Power BI Desktop → Power BI Service
 ---
 
 #### 4. Data Visualization (Power BI)
+<img width="1920" height="945" alt="Screenshot (1928)" src="https://github.com/user-attachments/assets/543300cb-1aa7-474d-8011-c9caf553b30c" />
+
 - Connected Snowflake to Power BI via connector  
 - Built interactive dashboards analyzing:
   - Environmental trends  
@@ -117,6 +133,8 @@ AWS S3 → Snowflake → Power BI Desktop → Power BI Service
 ---
 
 #### 5. Deployment (Power BI Service)
+<img width="1920" height="961" alt="Screenshot (1952)" src="https://github.com/user-attachments/assets/723206d3-47cd-49b8-aa42-9c08cf81053f" />
+
 - Published report to Power BI Service  
 - Enabled cloud-based access and sharing  
 
